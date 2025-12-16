@@ -1,13 +1,11 @@
 return {
-	{
-		"nilptrderef/nature.nvim",
-		name = "nature",
-		priority = 1000,
-	},
+	{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = {
+		transparency_mode = true,
+	} },
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "nature",
+			colorscheme = "gruvbox",
 		},
 	},
 }
